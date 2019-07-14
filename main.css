@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 100px;
+    width: 100px;
+    background-color:#ebe9ec;
+}
+.navigation {
+    width:  1793px;
+    margin: 0 auto;
+}
+.logo {
+    float: left;
+}
+.logo > h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu {
+    float: left;
+    margin: 0 112px;
+}
+.menu >ul {
+    list-style: none;
+
+}
+.menu >ul>li {
+    float: left;
+    padding: 15px 20px;
+    cursor: pointer;
+
+}
+.search > input {
+    float: left;
+    padding: 9px 196px;
+    margin-top: 23px;
+}
+.icons >ul {
+    list-style-type: none;
+    float: left;
+    padding: right 200px; 
+    margin-top: 9px;
+}
+.icons >ul>li {
+    float: left;
+    padding: 10px;
+    margin-top: 12px;
+}
+.slider {
+    height: 562px;
+    background-image: url(./avengers-wallpaper.jpg);
+}
+.slider > .mySlides{
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
