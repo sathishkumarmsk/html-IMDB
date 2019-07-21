@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+   
+  
 }
 .header {
     height: 100px;
@@ -52,8 +54,185 @@ body {
     background-image: url(./avengers-wallpaper.jpg);
 }
 .slider > .mySlides{
-    width: 1000px;
+    width:  1242px;
     margin: 0 auto;
 
 }
+/* .show1{
+   display:grid;
+   float: left;
+   
+}
+.show2{
+    display: grid;
+    float: left;
+}
+.show3{
+    display: grid;
+    float: left;
+}0fr
+.0fr
+ 0fr
+ 0fr
+}0fr
+.0fr
+ 0fr
+ 0fr
+}0fr
+.show6{
+    display: grid;
+    float: left;
+}
+.show7{
+    display: grid;
+    float: left;
+}
+.show8{
+    display: grid;
+    float: left;
+}
+.show9{
+    display: grid;
+    float: left;
+}
+.show10{
+    display: grid;
+    float: left;
+}
+.show11{
+    display: grid;
+    float: left;
+}
+.image{
+    background: black;
+    height: 350px;
+
+}
+.image >.span{
+    font-display: ffff;
+} */
+.shows{
+    display: grid;
+   
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    margin: 0 ;
+    grid-gap: 0;
+}
+
+.shows >.show1{
+    display: grid;
+    justify-items: center;
+    margin: 8px;
+    background-color: slategrey;
+    padding: 12px;
+
+
+}
+.shows >.show2{
+    display: grid;
+    justify-items: center; 
+    margin: 8px;
+    background-color: slategrey;
+    padding: 12px;
+
+}
+.shows >.show3{
+    display: grid;
+    justify-items: center; 
+    margin: 8px;
+    background-color: slategrey;
+    padding: 12px;
+
+}
+.shows >.show4{
+    display: grid;
+    justify-items: center; 
+    margin: 8px;
+    background-color: slategrey;
+    padding: 12px;
+
+}
+.shows >.show5{
+    display: grid;
+    justify-items: center; 
+    margin: 8px;
+    background-color: slategrey;
+    padding: 12px;
+
+
+}
+.shows >.show6{
+    display: grid;
+    justify-items: center; 
+    margin: 8px;
+    background-color: slategrey;
+    padding: 12px;
+
+}
+
+
+
+.shows >.show7{
+    display: grid;
+    justify-items: center; 
+    margin: 8px;
+    background-color: slategrey;
+    padding: 12px;
+
+}
+.shows >.show8{
+    display: grid;
+    justify-items: center;
+    margin: 8px;
+    background-color: slategrey;
+    padding: 12px; 
+
+}
+.shows >.show9{
+    display: grid;
+    justify-items: center;
+    margin: 8px;
+    background-color: slategrey;
+    padding: 12px; 
+
+}
+.shows >.show10{
+    display: grid;
+    justify-items: center; 
+    margin: 8px;
+    background-color: slategrey;
+    padding: 12px;
+
+}
+.shows >.show11{
+    display: grid;
+    justify-items: center; 
+    margin: 8px;
+    background-color: slategrey;
+    padding: 12px;
+
+}
+.shows >.show12{
+    display: grid;
+    justify-items: center; 
+    margin: 8px;
+    background-color: slategrey;
+    padding: 12px;
+
+}
+.shows >.seemore {
+    text-align: center;
+    cursor: pointer;
+
+}
+.image {
+    background-color: #668da0;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
 
